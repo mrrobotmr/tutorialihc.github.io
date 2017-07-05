@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+body#interface{
+	width: 1300px;
+	margin: auto;
+}
+
+
+header#cabecalho {
+	height: 300px;
+	width:1303px;
+	/*border-style: solid;*/
+	border: 1px solid black;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0px 0px 29px -2px rgba(67,73,68,1);
+	-moz-box-shadow: inset 0px 0px 29px -2px rgba(67,73,68,1);
+	box-shadow: inset 0px 0px 29px -2px rgba(67,73,68,1);
+	
+}
+
+a{
+	 text-decoration: none;
+}
+header#cabecalho h1{
+	font-family: Liberation Serif;
+	font-size: 80pt;
+	color: #323534;
+	text-align: center;	
+	margin-left: 180px;
+	margin-top: -1px;
+	text-shadow: 0px 0px 10px #1e1a1a;
+
+
+}
+
+header#cabecalho h2{
+	font-family: sans-serif;
+	font-size: 25pt;
+	color: #323534;
+	text-align: center;
+	margin-top: -40px;
+}
+
+/*
+section#corpo{
+	width: 985px;
+	height: 1050px;
+	display: block;
+	float: right;
+	background-color: white;
+	margin-right: -5px;
+	margin-top: 5px;
+	border-style: solid;
+
+}
+
+section#corpo iframe{
+	width: 980px;
+	height: 1050px;
+}*/
+
+iframe#frame-assunto{
+	width: 990px;
+	height: 1050px;
+	display: block;
+	float: right;
+	background-color: white;
+	margin-left: -5px;
+	margin-right: -5px;
+	margin-top: 0px;
+	border: 1px solid black;
+	padding-top: 0px;
+	border-radius: 3px;
+
+
+	-webkit-box-shadow: inset 0px 0px 29px -2px rgba(67,73,68,1);
+-moz-box-shadow: inset 0px 0px 29px -2px rgba(67,73,68,1);
+box-shadow: inset 0px 0px 29px -2px rgba(67,73,68,1);
+}
+aside#menu-superior{
+	width: 1303px;
+	height: 50px;
+	vertical-align: top;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	border: 1px solid black;
+	background-color: #434944;
+	margin-top: 8px;
+}
+
+
+aside#menu-superior nav{
+
+}
+
+aside#menu-superior nav ol{
+
+	margin-left: -40px;
+	list-style: upper-alpha;
+	text-transform: uppercase;
+}
+
+aside#menu-superior nav li span{
+	display: inline-block;
+	color: white;
+	border-right: none;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 12pt;
+
+}
+aside#menu-superior nav li{
+	display: inline-block;
+	padding: 5px;
+	margin: 1px;
+	margin-top: -10px;
+	color: #790d0d;
+	font-family: sans-serif;
+	border-right: 1px solid;
+	border-right-color: black;
+	font-weight: bolder;
+	margin-left: 0px;
+}
+
+aside#menu-superior nav li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	/*color: #1cea00;*/
+	color: #96f80b;
+
+}
+
+aside#menu-superior nav li a:hover{
+	background-color: #333333;
+	padding: 5px;
+	text-decoration: none;
+}
+
+
+aside#menu-superior nav h1{
+	display: none;
+}
+aside#menu-superior nav li:hover{
+	
+}
+
+
+aside#menu-lateral{
+	width: 300px;
+	height: 1050px;
+	display: block;
+	float: left;
+	background-color: #434944;
+	border-color: black;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-radius: 3px;
+	border: 1px solid black;
+
+}
+
+
+aside#menu-lateral nav ul{
+	list-style:;
+	text-transform: lowercase;
+	color: black;
+
+}
+
+aside#menu-lateral nav li{
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-size: 12pt;
+	color: white;
+	text-align: left;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding: 5px;
+	list-style: circle;
+
+
+}
+
+
+aside#menu-lateral nav li a{
+	text-decoration: none;
+	font-family:sans-serif;
+	font-size: 13pt;
+	color: white;
+	font-weight: 700;
+}
+
+aside#menu-lateral nav li a:hover{
+	color: #9de85b;
+	text-decoration: none;
+}
+aside#menu-lateral nav h2{
+	text-transform: uppercase;
+	font-size: 15pt;
+	font-family: sans-serif;
+	/*color: #1cea00;*/
+	color: #96f80b;
+	padding: 5px;
+	text-align: center;
+	background-color: #333333;
+}
+
+
+aside#menu-lateral nav h1{
+	display: none;
+}
+
+
+
+footer#rodape{
+	width: 1303px;
+	height:  60px;
+	background-color: #434944;
+	margin-top: 1072px;
+	border-left: 2px;
+	border: 1px solid black;
+
+
+}
+
+footer#rodape p {
+	margin-top: 5px;
+	margin-bottom: 2px;
+	text-align: center;
+	font-family: sans-Serif;
+	font-size: 12pt;
+	color: white;	
+	font-weight: bolder;
+}
+
+footer#rodape p a{
+	color: #96f80b;
+	text-decoration: none;
+}
